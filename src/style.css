@@ -1,0 +1,120 @@
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+h1 {
+  font-size: 150px;
+  display: inline;
+}
+
+h2,
+h3,
+h4 {
+  text-align: right;
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+  color: grey;
+  font-weight: 300px;
+}
+
+h5 {
+  font-size: 30px;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 25px;
+}
+
+hr {
+  background-color: #ffd6e0;
+  margin-top: 10px;
+  size: 10px;
+  border-radius: 5px;
+}
+hr:not([size]) {
+  height: 7px;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  margin: 0px;
+  font-size: 20px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.app {
+  margin: 30px auto;
+  padding: 20px 60px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+.city-weather {
+  margin: 30px auto;
+  padding: 20px 60px;
+  border: none;
+  border-radius: 50px;
+}
+
+.cities {
+  font-size: 20px;
+}
+
+.city:hover {
+  text-decoration: underline #ffd6e0 7px;
+}
+.search-city {
+  padding-top: 20px;
+}
+
+.btn-search {
+  border: none;
+  color: white;
+  transition: all 200ms ease-in;
+  background-color: #a1afe9;
+}
+
+.btn-search:hover {
+  background-image: linear-gradient(to right, #bfe3ed, #a1afe9, #bfe3ed);
+  background-position: 50px;
+  cursor: pointer;
+  color: white;
+}
+
+.btn-current {
+  border: none;
+  color: white;
+  transition: all 200ms ease-in;
+  background-color: #a1afe9;
+}
+
+.btn-current:hover {
+  background-image: linear-gradient(to right, #ffd6e0, #a1afe9, #ffd6e0);
+  background-position: 50px;
+  cursor: pointer;
+  color: white;
+}
+
+.centreImage {
+  display: block;
+  width: 100%;
+}
+
+.weatherIcon {
+  font-size: 100px;
+}
